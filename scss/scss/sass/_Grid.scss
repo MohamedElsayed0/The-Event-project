@@ -1,0 +1,77 @@
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container{
+    width: $mainWidth - 4;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 72rem;
+    @media (max-width:1200px) {
+        max-width: 62rem;
+    }
+    @media (max-width:992px) {
+        max-width: 52rem;
+    }
+    @media (max-width:768px) {
+        max-width: 35rem;
+        }
+    @media (max-width:552px) {
+        max-width: 40rem;
+        }
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: $mainWidth;
+    padding: 0 -15;
+}
+
+.global-col{
+    position: relative;
+    padding: 10px 15px;
+}
+
+@for $i from 1 through 12 {
+    .c-#{$i} {
+        flex: 0 0 (100% / (12/$i));
+        max-width: (100% / (12/$i));
+       @extend .global-col ;
+    }
+}
+
+
+@for $i from 1 through 12 {
+    .c-sm-#{$i} {
+       @extend .global-col ;
+       @include media-min-width(320px,max-width,(100% / (12/$i)),flex,0 0 (100% / (12/$i)))
+    }
+}
+
+@for $i from 1 through 12 {
+    .c-md-#{$i} {
+       @extend .global-col ;
+       @include media-min-width(768px,max-width,(100% / (12/$i)),flex,0 0 (100% / (12/$i)))
+    }
+}
+
+@for $i from 1 through 12 {
+    .c-lg-#{$i} {
+       @extend .global-col ;
+       @include media-min-width(1001px,max-width,(100% / (12/$i)),flex,0 0 (100% / (12/$i)))
+    }
+}
+
+@for $i from 1 through 12 {
+    .c-xl-#{$i} {
+       @extend .global-col ;
+       @include media-min-width(1200px,max-width,(100% / (12/$i)),flex,0 0 (100% / (12/$i)))
+    }
+}
+
+

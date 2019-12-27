@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="C:\Users\Mohamed\Desktop\gulp-project\node_modules\bootstrap\dist\css\bootstrap.css"> -->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <title>The Event</title>
+</head>
+
+<body>
+    <div class="globale">
+
+        <!-- side nav  -->
+        <div class="sidenav" id="sidenav">
+            <ul class="sidenave-list">
+                <li class="sidenave-item"><a href="#Home">Home</a></li>
+                <li class="sidenave-item"><a href="#About">About</a></li>
+                <li class="sidenave-item"><a href="#Speakers">Speakers</a></li>
+                <li class="sidenave-item"><a href="#Schedule">Schedule</a></li>
+                <li class="sidenave-item"><a href="#Venue">Venue</a></li>
+                <li class="sidenave-item"><a href="#Hotels">Hotels</a></li>
+                <li class="sidenave-item"><a href="#Gallery">Gallery</a></li>
+                <li class="sidenave-item"><a href="#Sponsors">Sponsors</a></li>
+                <li class="sidenave-item"><a href="#Contact">Contact</a></li>
+                <li class="sidenave-item"><a class="buyTrickets" href="#BuyTickets">Buy Tickets</a></li>
+            </ul>
+        </div>
+
+        <!-- filter to side nav  -->
+        <div class="filterToSideNav" id="filterToSideNav">
+            <span class="closeIcon" id="closeIconSideNav">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+
+        <!-- scroll to top boutton -->
+        <span class="arrowUp" id="arrowUp">
+            <i class="fas fa-chevron-up"></i>
+        </span>
+        <!-- iframe for video -->
+        <div class="iframe" id="iframe">
+            <span class="closIcon" id="iframeClosIcon">
+                <i class="fas fa-times"></i>
+            </span>
+            <iframe width="944" height="524" src="https://www.youtube.com/embed/jDDaplaOz7Q"></iframe>
+        </div>
+
+        <!-- home section -->
+        <div class="home-section" id="Home">
+            <!-- filter to video modal -->
+            <div class="filter filterToVideoModal">
+                <!-- navbar -->
+                <div class="nav-container" id="navContainer">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="#home"><img class="" src="../img/logo.png" alt=""></a>
+                    </div>
+                    <!-- navbar linkes -->
+                    <div class="linkes">
+                        <ul class="nav-list">
+                            <li class="navigat"><a class="nav-lnk navigatactive" href="#Home">Home</a></li>
+                            <li class="navigat"><a class="nav-lnk" href="#About">About</a></li>
+                            <li class="navigat"><a class="nav-lnk" href="#Speakers">Speakers</a></li>
+                            <li class="navigat"><a class="nav-lnk" href="#Schedule">Schedule</a></li>
+                            <li class="navigat"><a class="nav-lnk" href="#Venue">Venue</a></li>
+                            <li class="navigat"><a class="nav-lnk" href="#Hotels">Hotels</a></li>
+                            <li class="navigat"><a class="nav-lnk" href="#Gallery">Gallery</a></li>
+                            <li class="navigat"><a class="nav-lnk" href="#Sponsors">Sponsors</a></li>
+                            <li class="navigat"><a class="nav-lnk" href="#Contact">Contact</a></li>
+                            <li class="navigat"><a class="nav-lnk buyTrickets" href="#BuyTickets">Buy Tickets</a>
+                            </li>
+                        </ul>
+                        <!-- toggle for mobile -->
+                        <span id="toggleIconSideNav" class=" toggleIcon ">
+                            <i class="fas fa-sliders-h"></i>
+                        </span>
+                    </div>
+                </div>
+                <!-- the-annual section -->
+                <div class="the-annual">
+                    <h1>
+                        THE ANNUAL <br>
+                        <span>MARKETING</span> CONFERENCE
+                    </h1>
+                    <p>10-12 December, Downtown Conference Center, New York</p>
+                    <!-- boutton for video -->
+                    <div class="circle1">
+                        <div class="circle2">
+                        </div>
+                        <div class="circle3" id="videoBtn">
+                            <span class="playIcon">
+                                <i class="fas fa-play"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <a href="#About" class="bton">
+                        About The Event
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- about section -->
+        <section class="about " id="About">
+            <div class="filter padding-Top-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="c-lg-6 c-sm-12">
+                            <h2> About The Event </h2><br>
+                            <p>
+                                Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error
+                                amet
+                                eius aut accusantium et. Non odit consequatur
+                                repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in est ut optio sequi
+                                unde.
+                            </p>
+                        </div>
+
+                        <div class="c-lg-3 c-sm-12">
+                            <h4> WHERE </h4><br>
+                            <p> Downtown Conference Center, New York </p>
+                        </div>
+
+                        <div class="c-lg-3 c-sm-12 ">
+                            <h4>WHEN</h4><br>
+                            <p>Monday to Wednesday <span> 10-12 December </span> </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SPEAKERS section -->
+        <div id="speakers" class="speakers container padding-Top-bottom show-on-scroll" id="Speakers">
+            <div class="row">
+
+                <div class="c-12 speaker-header headerForAnySection">
+                    <h1>event speakers</h1>
+                    <p>Here are some of our speakers</p>
+                </div>
+
+                <div class="speaker-main row">
+                    <div class="c-lg-4 c-md-6 speaker1 speaker">
+                        <div class="relative">
+                            <img src="../img/speakers/speaker1.jpg" class="image" alt="speaker1">
+                            <div class="hover">
+                                <h2>Brenden Legros</h2>
+                                <p>Quas alias incidunt</p>
+                                <span>
+                                    <span><i class="fab fa-twitter"></i></span>
+                                    <span><i class="fab fa-facebook-f"></i></span>
+                                    <span><i class="fab fa-google-plus-g"></i></span>
+                                    <span><i class="fab fa-linkedin-in"></i></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-lg-4 c-md-6 speaker2 speaker">
+                        <div class="relative">
+                            <img src="../img/speakers/speaker2.jpg" class="image" alt="speaker2">
+                            <div class="hover">
+                                <h2 class="">Hubert Hirthe</h2>
+                                <p>Consequuntur odio aut</p>
+                                <span>
+                                    <span><i class="fab fa-twitter"></i></span>
+                                    <span><i class="fab fa-facebook-f"></i></span>
+                                    <span><i class="fab fa-google-plus-g"></i></span>
+                                    <span><i class="fab fa-linkedin-in"></i></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-lg-4 c-md-6 speaker3 speaker">
+                        <div class="relative">
+                            <img src="../img/speakers/speaker3.jpg" class="image" alt="speaker3">
+                            <div class="hover">
+                                <h2> Cole Emmerich</h2>
+                                <p>Fugiat laborum et</p>
+                                <span>
+                                    <span><i class="fab fa-twitter"></i></span>
+                                    <span><i class="fab fa-facebook-f"></i></span>
+                                    <span><i class="fab fa-google-plus-g"></i></span>
+                                    <span><i class="fab fa-linkedin-in"></i></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-lg-4 c-md-6 speaker4 speaker">
+                        <div class="relative">
+                            <img src="../img/speakers/speaker4.jpg" class="image" alt="speaker4">
+                            <div class="hover">
+                                <h2>Jack Christiansen</h2>
+                                <p> Debitis iure vero</p>
+                                <span>
+                                    <span><i class="fab fa-twitter"></i></span>
+                                    <span><i class="fab fa-facebook-f"></i></span>
+                                    <span><i class="fab fa-google-plus-g"></i></span>
+                                    <span><i class="fab fa-linkedin-in"></i></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-lg-4 c-md-6 speaker5 speaker">
+                        <div class="relative">
+                            <img src="../img/speakers/speaker5.jpg" class="image" alt="speaker5">
+                            <div class="hover">
+                                <h2>Alejandrin Littel</h2>
+                                <p>Qui molestiae natus</p>
+                                <span>
+                                    <span><i class="fab fa-twitter"></i></span>
+                                    <span><i class="fab fa-facebook-f"></i></span>
+                                    <span><i class="fab fa-google-plus-g"></i></span>
+                                    <span><i class="fab fa-linkedin-in"></i></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-lg-4 c-md-6 speaker6 speaker">
+                        <div class="relative">
+                            <img src="../img/speakers/speaker6.jpg" class="image" alt="speaker6">
+                            <div class="hover">
+                                <h2>Willow Trantow</h2>
+                                <p> Non autem dicta</p>
+                                <span>
+                                    <span><i class="fab fa-twitter"></i></span>
+                                    <span><i class="fab fa-facebook-f"></i></span>
+                                    <span><i class="fab fa-google-plus-g"></i></span>
+                                    <span><i class="fab fa-linkedin-in"></i></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SCHEDULE section -->
+        <div class="schedule container-fluid padding-Top-bottom show-on-scroll" id="Schedule">
+            <div class="row">
+                <div class="c-12 schedule-header headerForAnySection">
+                    <h1>event schedule</h1>
+                    <p>Here are some of our schedule</p>
+                </div>
+                <div class="bottons row" id="schedule-bottons">
+
+                    <button class=" botton c-lg-3 c-md-3 c-sm-12 scheduleActive" id="day-1"
+                        onclick="toggleElement('day1')">
+                        Day 1
+                    </button>
+                    <button class=" botton c-3" onclick="toggleElement('day2')">
+                        Day 2
+                    </button>
+                    <button class=" botton c-3" onclick="toggleElement('day3')">
+                        Day 3
+                    </button>
+                    <div class="paragraph c-lg-8 c-md-10 c-12">
+                        <p>Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
+                            necessitatibus voluptatem quis labore perspiciatis quia.</p>
+                    </div>
+
+                </div>
+
+                <div class="wrab row" id="day1">
+                    <div class="Registration row c-lg-9 c-md-10 c-sm-12">
+                        <div class="regist row">
+                            <span class="c-lg-2 c-md-2 cl-sm-12">
+                                09:30 AM
+                            </span>
+                            <div class="c-lg-10 c-12">
+                                <h4 class=""> Registration </h4>
+                                <p>
+                                    Fugit voluptas iusto maiores temporibus autem numquam magnam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                10:00 AM
+                            </span>
+
+                            <div class="speaker1">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Brenden Legros</h4>
+                                <p>
+                                    Facere provident incidunt quos voluptas.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                11:00 AM
+                            </span>
+
+                            <div class="speaker2">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Hubert Hirthe</h4>
+                                <p>
+                                    Maiores dignissimos neque qui cum accusantium ut sit sint inventore.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                12:00 AM
+                            </span>
+
+                            <div class="speaker3">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Cole Emmerich</h4>
+                                <p>
+                                    Veniam accusantium laborum nihil eos eaque accusantium aspernatur.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                02:00 PM
+                            </span>
+
+                            <div class="speaker4">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Jack Christiansen</h4>
+                                <p>
+                                    Nam ex distinctio voluptatem doloremque suscipit iusto. </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                03:00 PM
+                            </span>
+
+                            <div class="speaker5">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Alejandrin Littel</h4>
+                                <p>
+                                    Eligendi quo eveniet est nobis et ad temporibus odio quo.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                04:00 PM
+                            </span>
+
+                            <div class="speaker6">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Willow Trantow</h4>
+                                <p>
+                                    Voluptatem et alias dolorum est aut sit enim neque veritatis.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrab row" id="day2">
+
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                10:00 AM
+                            </span>
+
+                            <div class="speaker1">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Brenden Legros</h4>
+                                <p>
+                                    Facere provident incidunt quos voluptas.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                11:00 AM
+                            </span>
+
+                            <div class="speaker2">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Hubert Hirthe</h4>
+                                <p>
+                                    Maiores dignissimos neque qui cum accusantium ut sit sint inventore.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                12:00 AM
+                            </span>
+
+                            <div class="speaker3">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Cole Emmerich</h4>
+                                <p>
+                                    Veniam accusantium laborum nihil eos eaque accusantium aspernatur.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                02:00 PM
+                            </span>
+
+                            <div class="speaker4">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Jack Christiansen</h4>
+                                <p>
+                                    Nam ex distinctio voluptatem doloremque suscipit iusto.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                03:00 PM
+                            </span>
+
+                            <div class="speaker5">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Alejandrin Littel</h4>
+                                <p>
+                                    Eligendi quo eveniet est nobis et ad temporibus odio quo.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                04:00 PM
+                            </span>
+
+                            <div class="speaker6">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Willow Trantow</h4>
+                                <p>
+                                    Voluptatem et alias dolorum est aut sit enim neque veritatis.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="wrab row" id="day3">
+
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                10:00 AM
+                            </span>
+
+                            <div class="speaker2">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Hubert Hirthe</h4>
+                                <p>
+                                    Maiores dignissimos neque qui cum accusantium ut sit sint inventore.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                11:00 AM
+                            </span>
+
+                            <div class="speaker3">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Cole Emmerich</h4>
+                                <p>
+                                    Veniam accusantium laborum nihil eos eaque accusantium aspernatur.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                12:00 AM
+                            </span>
+
+                            <div class="speaker1">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Brenden Legros</h4>
+                                <p>
+                                    Facere provident incidunt quos voluptas.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                02:00 PM
+                            </span>
+
+                            <div class="speaker4">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Jack Christiansen</h4>
+                                <p>
+                                    Nam ex distinctio voluptatem doloremque suscipit iusto.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                03:00 PM
+                            </span>
+
+                            <div class="speaker5">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Alejandrin Littel</h4>
+                                <p>
+                                    Eligendi quo eveniet est nobis et ad temporibus odio quo.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Registration c-lg-9 c-md-10 c-sm-12">
+
+                        <div class="regist row">
+
+                            <span class="c-lg-2 c-md-12 c-sm-12">
+                                04:00 PM
+                            </span>
+
+                            <div class="speaker6">
+
+                            </div>
+
+                            <div class="c-lg-8 c-md-8 c-sm-9">
+                                <h4 class="">Willow Trantow</h4>
+                                <p>
+                                    Voluptatem et alias dolorum est aut sit enim neque veritatis.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- EVENT VENUE section -->
+        <div class="venue container-fluid padding-Top-bottom show-on-scroll" id="Venue">
+            <div class="row">
+
+                <div class="c-12 venue-header headerForAnySection">
+                    <h1>EVENT VENUE</h1>
+                    <p>Event venue location info and gallery</p>
+                </div>
+
+                <div class="c-lg-6 c-12 map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.5521817881486!2d29.946343014425278!3d31.233133968395524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c4e7065ed235%3A0x15f0585d70777742!2s36%20Roushdy%2C%20Mustafa%20Kamel%20WA%20Bolkli%2C%20Sidi%20Gaber%2C%20Alexandria%20Governorate!5e0!3m2!1sen!2seg!4v1576061872842!5m2!1sen!2seg"
+                        height="300" width="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+                <div class="c-lg-6 c-12 Downtown">
+                    <div class="Downtown-filter filter">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="Downtownwrab c-lg-10 c-md-11 c-12">
+                                    <h1 class="">
+                                        Downtown Conference Center, New York
+                                    </h1>
+                                    <p class="">
+                                        Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque
+                                        beatae
+                                        ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus
+                                        possimus.
+                                        Consequatur sequi et ea suscipit enim nesciunt quia velit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="imgs col-12 row">
+                    <div class="c-lg-3 c-md-4 c-12"><img class="image" src="../img/venue-gallery/1.jpg" alt=""></div>
+                    <div class="c-lg-3 c-md-4 c-12"><img class="image" src="../img/venue-gallery/2.jpg" alt=""></div>
+                    <div class="c-lg-3 c-md-4 c-12"><img class="image" src="../img/venue-gallery/3.jpg" alt=""></div>
+                    <div class="c-lg-3 c-md-4 c-12"><img class="image" src="../img/venue-gallery/4.jpg" alt=""></div>
+                    <div class="c-lg-3 c-md-4 c-12"><img class="image" src="../img/venue-gallery/5.jpg" alt=""></div>
+                    <div class="c-lg-3 c-md-4 c-12"><img class="image" src="../img/venue-gallery/6.jpg" alt=""></div>
+                    <div class="c-lg-3 c-md-4 c-12"><img class="image" src="../img/venue-gallery/7.jpg" alt=""></div>
+                    <div class="c-lg-3 c-md-4 c-12"><img class="image" src="../img/venue-gallery/8.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HOTELS section -->
+        <div class="hotels container-fluid padding-Top-bottom show-on-scroll" id="Hotels">
+            <div class="row">
+                <div class="c-12 hotels-header headerForAnySection">
+                    <h1>hotels</h1>
+                    <p>Her are some nearby hotels</p>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="c-lg-4 c-md-6 c-12 row card">
+                            <div class="hotelImg c-12">
+                                <img class="image" src="../img/hotels/1.jpg" alt="">
+                            </div>
+                            <div class="hotelP c-12">
+                                <h3>
+                                    Hotel 1
+                                </h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>
+                                    0.4 Mile from the Venue
+                                </p>
+                            </div>
+                        </div>
+                        <div class="c-lg-4 c-md-6 c-12 row card">
+                            <div class="hotelImg c-12">
+                                <img class="image" src="../img/hotels/2.jpg" alt="">
+                            </div>
+                            <div class="hotelP c-12">
+                                <h3>
+                                    Hotel 2
+                                </h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <p>
+                                    0.5 Mile from the Venue
+                                </p>
+                            </div>
+                        </div>
+                        <div class="c-lg-4 c-md-6 c-12 row card">
+                            <div class="hotelImg c-12">
+                                <img class="image" src="../img/hotels/3.jpg" alt="">
+                            </div>
+                            <div class="hotelP c-12">
+                                <h3>
+                                    Hotel 3
+                                </h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>
+                                    0.6 Mile from the Venue
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- galary section -->
+        <div class="galary container-fluid padding-Top-bottom show-on-scroll" id="Gallery">
+            <div class="row">
+                <div class="c-12 galary-header headerForAnySection">
+                    <h1>galary</h1>
+                    <p>Check our gallery from the recent events</p>
+                </div>
+                <div id="frame" class="container-fluid">
+                    <div id="slider">
+                        <img src="../img/gallery/4.jpg" alt="">
+                        <img src="../img/gallery/5.jpg" alt="">
+                        <img src="../img/gallery/6.jpg" alt="">
+                        <img src="../img/gallery/7.jpg" alt="">
+                        <img id="last" src="../img/gallery/8.jpg" alt="">
+                        <img src="../img/gallery/1.jpg" alt="">
+                        <img src="../img/gallery/2.jpg" alt="">
+                        <img src="../img/gallery/3.jpg" alt="">
+                        <img src="../img/gallery/4.jpg" alt="">
+                        <img src="../img/gallery/5.jpg" alt="">
+                        <img src="../img/gallery/6.jpg" alt="">
+                        <img src="../img/gallery/7.jpg" alt="">
+                        <img src="../img/gallery/8.jpg" alt="">
+                        <img id="frist" src="../img/gallery/1.jpg" alt="">
+                        <img src="../img/gallery/2.jpg" alt="">
+                        <img src="../img/gallery/3.jpg" alt="">
+                        <img src="../img/gallery/4.jpg" alt="">
+                        <img src="../img/gallery/5.jpg" alt="">
+                    </div>
+                    <button id="prev"><i class="fas fa-chevron-left"></i></button>
+                    <button id="next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <!-- sponsors section -->
+        <div class="sponsors container padding-Top-bottom show-on-scroll" id="Sponsors">
+            <div class="row">
+                <div class="c-12 sponsors-header headerForAnySection">
+                    <h1>SPONSORS</h1>
+                </div>
+                <div class="wraplogo c-lg-3 c-md-4 c-12">
+                    <div class="logo">
+                        <img class="image" src="../img/supporters/1.png" alt="">
+                    </div>
+                </div>
+                <div class="wraplogo c-lg-3 c-md-4 c-12">
+                    <div class="logo">
+                        <img class="image" src="../img/supporters/2.png" alt="">
+                    </div>
+                </div>
+                <div class="wraplogo c-lg-3 c-md-4 c-12">
+                    <div class="logo">
+                        <img class="image" src="../img/supporters/3.png" alt="">
+                    </div>
+                </div>
+                <div class="wraplogo c-lg-3 c-md-4 c-12">
+                    <div class="logo">
+                        <img class="image" src="../img/supporters/4.png" alt="">
+                    </div>
+                </div>
+                <div class="wraplogo c-lg-3 c-md-4 c-12">
+                    <div class="logo">
+                        <img class="image" src="../img/supporters/5.png" alt="">
+                    </div>
+                </div>
+                <div class="wraplogo c-lg-3 c-md-4 c-12">
+                    <div class="logo">
+                        <img class="image" src="../img/supporters/6.png" alt="">
+                    </div>
+                </div>
+                <div class="wraplogo c-lg-3 c-md-4 c-12">
+                    <div class="logo">
+                        <img class="image" src="../img/supporters/7.png" alt="">
+                    </div>
+                </div>
+                <div class="wraplogo c-lg-3 c-md-4 c-12">
+                    <div class="logo">
+                        <img class="image" src="../img/supporters/8.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- F,A,Q section  -->
+        <div class="FAQ container padding-Top-bottom show-on-scroll">
+            <div class="row">
+                <div class="c-12 FAQ-header headerForAnySection">
+                    <h1>F , A , Q</h1>
+                </div>
+
+                <div class="row questionWraB c-lg-9 c-md-10 c-12">
+                    <div class="question c-lg-12 row">
+                        <p class=" c-11 ">
+                            Non consectetur a erat nam at lectus urna duis?
+                        </p>
+                        <div class="plus c-1">
+                            <span>
+                                <i class="fas fa-plus"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="sibling no">
+                        <div class="c-11">
+                            Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                            curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row questionWraB c-lg-9 c-md-10 c-12">
+                    <div class="question c-lg-12 row">
+                        <p class=" c-11 ">
+                            Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                        </p>
+                        <div class="plus c-1">
+                            <span>
+                                <i class="fas fa-plus"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="sibling no">
+                        <div class="c-11">
+                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit
+                            laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium.
+                            Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa
+                            tincidunt dui.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row questionWraB c-lg-9 c-md-10 c-12">
+                    <div class="question c-lg-12 row">
+                        <p class=" c-11 ">
+                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                        </p>
+                        <div class="plus c-1">
+                            <span>
+                                <i class="fas fa-plus"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="sibling no">
+                        <div class="c-11">
+                            Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
+                            elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
+                            pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at
+                            elementum eu facilisis sed odio morbi quis
+                        </div>
+                    </div>
+                </div>
+                <div class="row questionWraB c-lg-9 c-md-10 c-12">
+                    <div class="question c-lg-12 row">
+                        <p class=" c-11 ">
+                            Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                        </p>
+                        <div class="plus c-1">
+                            <span>
+                                <i class="fas fa-plus"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="sibling no">
+                        <div class="c-11">
+                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit
+                            laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium.
+                            Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa
+                            tincidunt dui.
+                        </div>
+                    </div>
+                </div>
+                <div class="row questionWraB c-lg-9 c-md-10 c-12">
+                    <div class="question c-lg-12 row">
+                        <p class=" c-11 ">
+                            Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                        </p>
+                        <div class="plus c-1">
+                            <span>
+                                <i class="fas fa-plus"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="sibling no">
+                        <div class="c-11">
+                            Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
+                            ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
+                            bibendum est. Purus gravida quis blandit turpis cursus in
+                        </div>
+                    </div>
+                </div>
+                <div class="row questionWraB c-lg-9 c-md-10 c-12">
+                    <div class="question c-lg-12 row">
+                        <p class=" c-11 ">
+                            Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+                        </p>
+                        <div class="plus c-1">
+                            <span>
+                                <i class="fas fa-plus"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="sibling no">
+                        <div class="c-11">
+                            Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer
+                            malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem
+                            dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat
+                            commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non
+                            blandit massa enim nec.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- newSletter section -->
+        <div class="newSletter container-fluid padding-Top-bottom">
+            <div class="filter">
+                <div class="newSletterRow row show-on-scroll">
+                    <div class="c-12 newSletter-header headerForAnySection">
+                        <h1>newSletter</h1>
+                        <p>
+                            Rerum numquam illum recusandae quia mollitia consequatur.
+                        </p>
+                    </div>
+
+                    <div class="subscribe c-12 row">
+                        <input class="c-lg-4 c-md-4 c-12" type="text" placeholder="Enter your Email">
+                        <button class="c-1">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- buy tickets section -->
+        <div class="buyTickets container-fluid padding-Top-bottom show-on-scroll" id="BuyTickets">
+            <div class="row">
+                <div class="c-12 newSletter-header headerForAnySection">
+                    <h1>buy tickets</h1>
+                    <p>
+                        Velit consequatur consequatur inventore iste fugit unde omnis eum aut.
+                    </p>
+                </div>
+                <div class="wrabTickets c-lg-10 c-md-9 c-12 row">
+                    <div class="ticket c-lg-4 c-12 row">
+                        <div class="ticket-header c-12">
+                            <h4>STANDARD ACCESS</h4>
+                            <h1>
+                                <span><i class="fas fa-dollar-sign"></i></span>150
+                            </h1>
+                        </div>
+                        <div class="ticket-main c-12">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Regular Seating</li>
+                                <li><i class="fas fa-check"></i> Coffee Break</li>
+                                <li><i class="fas fa-check"></i> Custom Badge</li>
+                                <li class="disable-text"><i class="fas fa-times"></i> Community Access</li>
+                                <li class="disable-text"><i class="fas fa-times"></i> Workshop Access</li>
+                                <li class="disable-text"><i class="fas fa-times"></i> After Party</li>
+                            </ul>
+                        </div>
+                        <div class="ticket-footer c-12 row">
+                            <button class="btn-modal">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ticket c-lg-4 c-12 row">
+                        <div class="ticket-header c-12">
+                            <h4>PRO ACCESS</h4>
+                            <h1>
+                                <span><i class="fas fa-dollar-sign"></i></span>250
+                            </h1>
+                        </div>
+                        <div class="ticket-main c-12">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Regular Seating</li>
+                                <li><i class="fas fa-check"></i> Coffee Break</li>
+                                <li><i class="fas fa-check"></i> Custom Badge</li>
+                                <li><i class="fas fa-check"></i> Community Access</li>
+                                <li class="disable-text"><i class="fas fa-times"></i> Workshop Access</li>
+                                <li class="disable-text"><i class="fas fa-times"></i> After Party</li>
+                            </ul>
+                        </div>
+                        <div class="ticket-footer c-12 row">
+                            <button class="btn-modal">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ticket c-lg-4 c-12 row">
+                        <div class="ticket-header c-12">
+                            <h4>PREMIUM ACCESS</h4>
+                            <h1>
+                                <span><i class="fas fa-dollar-sign"></i></span>350
+                            </h1>
+                        </div>
+                        <div class="ticket-main c-12">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Regular Seating</li>
+                                <li><i class="fas fa-check"></i> Coffee Break</li>
+                                <li><i class="fas fa-check"></i> Custom Badge</li>
+                                <li><i class="fas fa-check"></i> Community Access</li>
+                                <li><i class="fas fa-check"></i> Workshop Access</li>
+                                <li><i class="fas fa-check"></i> After Party</li>
+                            </ul>
+                        </div>
+                        <div class="ticket-footer c-12 row">
+                            <button class="btn-modal">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contactUs section -->
+        <div class="contactUs container padding-Top-bottom show-on-scroll" id="Contact">
+            <div class="row">
+                <div class="c-12 contactUs-header headerForAnySection">
+                    <h1>contact US</h1>
+                    <p>
+                        Nihil officia ut sint molestiae tenetur.
+                    </p>
+                </div>
+                <div class="c-12 address row">
+                    <div class="c-lg-4 c-md-8 c-12">
+                        <h3>ADDRESS</h3>
+                        <p>A108 Adam Street, NY 535022, USA</p>
+                    </div>
+                    <div class="c-lg-4 c-md-8 c-12">
+                        <h3>PHONE NUMBER</h3>
+                        <p>+1 5589 55488 55</p>
+                    </div>
+                    <div class="c-lg-4 c-md-8 c-12">
+                        <h3>EMAIL</h3>
+                        <p>info@example.com</p>
+                    </div>
+                </div>
+                <div class="fields row">
+                    <form class="form c-12 row" id="form" name="form">
+                        <input name="username" type="text" placeholder="Your Name" class="c-12">
+                        <div class="alert c-12">This field is required!!!</div>
+                        <input name="email" type="email" placeholder="Your Email" class="c-12" class="c-12">
+                        <div class="alert c-12">This field is required!!!</div>
+                        <input name="subject" type=" text" placeholder="Subject" class="c-12">
+                        <div class="alert c-12">This field is required!!!</div>
+                        <textarea name="textarea" name="" id="" cols="30" rows="10" placeholder="Message"
+                            class="c-12"></textarea>
+                        <div class="alert c-12">This field is required!!!</div>
+                        <button type="submit"> Send Message </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- footer -->
+
+        <div id="" class=" footer container-fluid padding-Top-bottom show-on-scroll">
+            <div class="row">
+                <div class="c-lg-3 c-md-6 c-12 row">
+                    <img class="c-12" src="../img/logo.png" alt="logo">
+                    <p class="c-12">
+                        In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et
+                        totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis.
+                        In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.
+                    </p>
+                </div>
+                <div class="c-lg-3 c-md-6 c-12 ">
+                    <h4 class="c-12">USEFUL LINKS</h4>
+                    <ul class="c-12">
+                        <li>
+                            <i class="fas fa-chevron-right"></i> Home
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i> About us
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i> Services
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i> Tarms of service
+
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i> Privacy policy
+                        </li>
+                    </ul>
+                </div>
+                <div class="c-lg-3 c-md-6  c-12">
+                    <h4 class="c-12">USEFUL LINKS</h4>
+                    <ul class="c-12">
+                        <li><i class="fas fa-chevron-right"></i> Home</li>
+                        <li><i class="fas fa-chevron-right"></i> About us</li>
+                        <li><i class="fas fa-chevron-right"></i> Services</li>
+                        <li><i class="fas fa-chevron-right"></i> Tarms of service</li>
+                        <li><i class="fas fa-chevron-right"></i> Privacy policy</li>
+                    </ul>
+                </div>
+                <div class="c-lg-3 c-md-6 c-12">
+                    <h4 class="c-12">CONTACT US</h4>
+                    <ul class="unborder c-12">
+                        <li>A108 Adam Street</li>
+                        <li>New York, NY 535022</li>
+                        <li>United States</li>
+                        <li>Phone: +1 5589 55488 55</li>
+                        <li>Email: info@example.com</li>
+                    </ul>
+                    <div class="social c-12 row">
+                        <span><i class="fab fa-twitter"></i></span>
+                        <span><i class="fab fa-facebook-f"></i></span>
+                        <span><i class="fab fa-instagram"></i></span>
+                        <span><i class="fab fa-google-plus-g"></i></span>
+                        <span><i class="fab fa-linkedin-in"></i></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <section class="container-fluid concopyright">
+            <div class="row">
+                <span>&copy; Copyright <strong>TheEvent</strong>. All Rights Reserved</span>
+                <p>
+                    Designed by <a href="https://codepen.io/mo7amed_elsayed_" target="_blank"> Mohamed Elsayed </a>
+                </p>
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <script src="http://localhost:35729/livereload.js?snipver=1"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+
+    <script src="../js/theEvent.js"></script>
+
+</body>
+
+</html>

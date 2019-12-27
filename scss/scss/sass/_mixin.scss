@@ -1,0 +1,61 @@
+// mixin for media to max width
+@mixin mediaa($maxWidth , $property1 , $value1, $property2 , $value2) {
+    @media ( max-width:$maxWidth ) 
+    {
+        #{$property1} : $value1;
+        #{$property2} : $value2;
+    }
+}
+// mixin for media to min width
+@mixin media-min-width($maxWidth , $property1 , $value1, $property2 , $value2) {
+    @media ( min-width:$maxWidth ) 
+    {
+        #{$property1} : $value1;
+        #{$property2} : $value2;
+    }
+}
+// mixin for flex
+@mixin d-flex($justifyContent,$alignItems) {
+    display: flex;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+}
+// mixin for position
+@mixin position($postionType,$top,$bottom,$left,$right) {
+    position: $postionType;
+    top: $top;
+    bottom: $bottom;
+    left: $left;
+    right: $right;
+}
+// mixin for Back Ground Image
+@mixin backGroundImage($img-path,$bg-size,$bg-Attachment) {
+    background-image: $img-path ;
+    background-size: $bg-size;
+    background-attachment: $bg-Attachment;
+}
+// mixin for nav linke
+@mixin nav-link($width,$color) {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding:.50rem;
+    margin-left: .10rem;
+    font-size:$mainFontSize - 1.1;
+    width : $width;
+    color : $color;
+}
+// mixin for radius button
+@mixin radius-button($background-color, $font-size, $P-Top-bottom , $p-left-right ) {
+    outline: none;
+    text-decoration: none;
+    color:#fff;
+    border:solid 2px $mainColor;
+    border-radius: 30px;
+    transition: $transition;
+    background-color: $background-color;
+    font-size: $font-size;
+    padding: $P-Top-bottom $p-left-right ;
+    cursor: pointer;
+}
+

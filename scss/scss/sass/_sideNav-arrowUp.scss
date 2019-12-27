@@ -1,0 +1,71 @@
+.filterToSideNav{
+    @include position(fixed,0,0,0,0);
+    background-color:rgba(6, 12, 34, 0.6);
+    z-index: 99;
+    display: none;
+    .closeIcon{
+        @include position(fixed,3%,null,null,3%);
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+.sidenav {
+    width:250px;
+    background-color:$mainBackground;
+    @include position(fixed,0,0,-250px,null);
+    transition: $transition;
+    z-index: 100;
+    .sidenave-list{
+        color: #fff;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 17px;
+        list-style: none;
+        overflow-y: auto;
+        .sidenave-item{
+            padding: .75rem .75rem;
+            font-weight: bold;
+            & a {
+                transition: .3s ease-in-out;
+                text-decoration: none; 
+                color: #fff;
+                &:hover{
+                    color: $mainColor;
+                }
+            } 
+        }
+    }
+}
+.arrowUp{
+    cursor: pointer;
+    @include position(fixed,null,2%,null,3%);
+    color: #fff;
+    background-color:$mainColor;
+    padding: 0.550rem 0.75rem;
+    border-radius: 50%;
+    transition: $transition;
+    display: none;
+    z-index: 300;
+    &:hover{
+        background-color:#d30e32;
+    }
+}
+.iframe{
+    @include position(absolute,-250%,null,0,0);
+    @include d-flex(center,center);
+    background-color:rgba(6, 12, 34, 0.7);
+    transition: all .5s ease-in-out;
+    z-index: 300;
+    .closIcon{
+        @include position(absolute,3%,null,null,3%);
+        color: #fff;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    iframe{
+        width:70%;
+        height:530px
+    }
+}
